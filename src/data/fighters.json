@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+[
+  { "rank": 1,  "name": "Ilia Topuria",               "wins": 17, "losses": 0,  "ko": 7,  "submissions": 8  },
+  { "rank": 2,  "name": "Islam Makhachev",            "wins": 27, "losses": 1,  "ko": 5,  "submissions": 13 },
+  { "rank": 3,  "name": "Merab Dvalishvili",          "wins": 20, "losses": 4,  "ko": 3,  "submissions": 2  },
+  { "rank": 4,  "name": "Dricus du Plessis",          "wins": 23, "losses": 2,  "ko": 9,  "submissions": 11 },
+  { "rank": 5,  "name": "Alexandre Pantoja",          "wins": 30, "losses": 5,  "ko": 8,  "submissions": 12 },
+  { "rank": 6,  "name": "Alexander Volkanovski",      "wins": 27, "losses": 4,  "ko": 13, "submissions": 3  },
+  { "rank": 7,  "name": "Magomed Ankalaev",           "wins": 20, "losses": 1,  "ko": 11, "submissions": 0  },
+  { "rank": 8,  "name": "Jack Della Maddalena",       "wins": 18, "losses": 2,  "ko": 13, "submissions": 2  },
+  { "rank": 9,  "name": "Tom Aspinall",               "wins": 15, "losses": 3,  "ko": 11, "submissions": 4  },
+  { "rank": 10, "name": "Alex Pereira",               "wins": 12, "losses": 3,  "ko": 10, "submissions": 0  },
+  { "rank": 11, "name": "Max Holloway",               "wins": 26, "losses": 8,  "ko": 12, "submissions": 2  },
+  { "rank": 12, "name": "Belal Muhammad",             "wins": 24, "losses": 4,  "ko": 5,  "submissions": 1  },
+  { "rank": 13, "name": "Arman Tsarukyan",            "wins": 22, "losses": 3,  "ko": 9,  "submissions": 5  },
+  { "rank": 14, "name": "Khamzat Chimaev",            "wins": 14, "losses": 0,  "ko": 6,  "submissions": 6  },
+  { "rank": 15, "name": "Charles Oliveira",           "wins": 35, "losses": 11, "ko": 10, "submissions": 21 },
+  { "rank": 16, "name": "Dustin Poirier",             "wins": 29, "losses": 8,  "ko": 8,  "submissions": 4  },
+  { "rank": 17, "name": "Islam Makhachev",            "wins": 27, "losses": 1,  "ko": 5,  "submissions": 13 },
+  { "rank": 18, "name": "Petr Yan",                   "wins": 16, "losses": 4,  "ko": 7,  "submissions": 1  },
+  { "rank": 19, "name": "Leon Edwards",               "wins": 21, "losses": 3,  "ko": 8,  "submissions": 1  },
+  { "rank": 20, "name": "Jan Błachowicz",             "wins": 28, "losses": 9,  "ko": 11, "submissions": 7  }
+]

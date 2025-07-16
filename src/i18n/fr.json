@@ -1,0 +1,26 @@
+{
+  "intro_title": "Tableau de Bord UFC home pound pour pound(2025)",
+  "intro_text": "Comparez les combattants selon les données UFC 2025 : victoires, défaites, KO et soumissions.",
+  "select_top": "Choisir Top",
+  "title_ranking": "Classement UFC Top {{n}}",
+  "compare_title": "Comparer Combattants",
+  "select_two_warning": "Veuillez sélectionner deux combattants à comparer.",
+  "select_fighters": "Choisir Combattants",
+  "bar_title": "Victoires vs Défaites",
+  "scatter_title": "KO vs Soumissions",
+  "wins": "Victoires",
+  "losses": "Défaites",
+  "ko": "KO",
+  "submissions": "Soumissions",
+  "fighter": "Combattant",
+  "select_one": "Choisir…",
+  "select_two_dropdown": "Veuillez choisir deux combattants à comparer.",
+  "ranking_score": "Score P4P",
+  "rank": "Classement",
+  "total": "Total",
+  "win_pct": " % Victoires",
+  "ko_pct": " % KO",
+  "sub": "Soum.",
+  "sub_pct": " % Soum."
+}
+

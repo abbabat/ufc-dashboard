@@ -1,0 +1,41 @@
+/* src/components/Footer.css */
+
+.app-footer {
+    position: fixed;
+    /* stick to the viewport */
+    left: 0;
+    /* align to left edge */
+    bottom: 0;
+    /* align to bottom edge */
+    width: 100vw;
+    /* full viewport width */
+    background: var(--accent-dark);
+    color: #f0f0f0;
+    padding: 1rem var(--spacing);
+    text-align: center;
+    box-shadow: 0 -2px 8px var(--shadow);
+    z-index: 1000;
+    /* sit above other content */
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 0.875rem;
+}
+
+.footer-content a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer-content a:hover {
+    opacity: 0.8;
+}
+
+/* push the page content up so it isn’t hidden under the footer */
+.app-container {
+    padding-bottom: calc(var(--header-height) + 4rem);
+}

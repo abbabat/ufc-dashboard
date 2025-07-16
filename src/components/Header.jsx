@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { useTranslation } from 'react-i18next';
 
-function App() {
+export default function Header({ lang, setLang }) {
+  const { t } = useTranslation();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <header>
+      <h1>UFC Dashboard</h1>
+      <div>
+        <button
+          className={lang==='en'?'active':''}
+          onClick={() => setLang('en')}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          EN
+        </button>
+        |
+        <button
+          className={lang==='fr'?'active':''}
+          onClick={() => setLang('fr')}
+        >
+          FR
+        </button>
+      </div>
+    </header>
   );
 }
-
-export default App;
