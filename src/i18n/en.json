@@ -21,5 +21,7 @@
   "win_pct": "Win %",
   "ko_pct": "KO %",
   "sub": "Sub",
-  "sub_pct": "Sub %"
+  "sub_pct": "Sub %",
+  "footer_source": "Data source: UFC Official Rankings",
+  "footer_builtWith": "Built with"
 }

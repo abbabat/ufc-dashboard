@@ -21,6 +21,8 @@
   "win_pct": " % Victoires",
   "ko_pct": " % KO",
   "sub": "Soum.",
-  "sub_pct": " % Soum."
+  "sub_pct": " % Soum.",
+  "footer_source": "Source des données : Classements officiels UFC",
+  "footer_builtWith": "Conçu avec"
 }
 
